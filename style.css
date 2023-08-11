@@ -14,7 +14,6 @@ body {
 
 .active-link {
   color: #2196f3;
-  text-decoration: underline;
 }
 .footer-adress {
   margin-bottom: 10px;
@@ -460,4 +459,25 @@ footer a {
 }
 .close-btn:hover {
   background-color: red;
+}
+.active-link::after {
+  content: "";
+  position: absolute;
+  bottom: 480px;
+  left: 315px;
+  width: 45px;
+  height: 2px;
+  background-color: #2196f3;
+}
+.active-link1 {
+  color: #2196f3;
+}
+.active-link1::after {
+  content: "";
+  position: absolute;
+  bottom: 480px;
+  left: 400px;
+  width: 45px;
+  height: 2px;
+  background-color: #2196f3;
 }
